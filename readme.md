@@ -19,3 +19,15 @@ Kontakt
 -------
 
 Bei Fragen, Problemen, Anregungen und Kritik kann man mich über meinen [Blog](http://blog.kanedo.net) erreichen.   
+
+## Abhängigkeiten
+Um diese Vorlage unter Unix-System zu verwenden, muss das `ltabelx`-Paket installiert werden. Zu finden ist es auf der [Projektseite](http://ctan.org/tex-archive/macros/latex/contrib/ltablex) und wird wie folgt installiert (Mac OS X):
+
+	$ cd /usr/local/texlive/texmf-local/tex/latex/local
+	$ open .
+
+Entpakter ZIP-Ordner in den geöffneten Ordner kopieren und mittels 
+
+	sudo texhash
+
+die LaTeX-Installation erneuern.	 

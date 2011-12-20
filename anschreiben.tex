@@ -10,7 +10,7 @@
 \usepackage[T1]{fontenc}     
 \usepackage[latin1]{inputenc}
 
-\usepackage{tabularx}
+\usepackage{ltablex}
 \usepackage{graphics} 
 \usepackage{wrapfig}
 
@@ -33,11 +33,14 @@
 		}
 	\end{letter}
 	\newpage
-	
-	\noindent Lebenslauf \\
-%	\begin{wrapfigure}{rt}{6cm}
-%		\includegraphics{bewerbungsbild}
-%	\end{wrapfigure}
+	\begin{flushleft}
+		\noindent Lebenslauf \\
+	\end{flushleft}
+
+	\begin{flushright}
+			\includegraphics{bewerbungsbild}
+	\end{flushright}
+
 	\begin{tabularx}{\textwidth}{X X}
 		~&~\\
 		PERSÖNLICHE ANGABEN & ~\\

@@ -4,7 +4,7 @@
 % Date: Aug 2011
 
 \ProvidesFile{bretschner.lco}[DINmtext]
-\KOMAoptions{fromalign=right, foldmarks=h, fromphone, fromemail}
+\KOMAoptions{fromalign=right, foldmarks=on, fromphone, fromemail}
 \setkomavar{fromname}{Gabriel~Bretschner}
 \setkomavar{fromaddress}{Wasastra{\ss}e~12\\01445~Radebeul}
 \setkomavar{fromphone}{+49\,176\,99~202~383}
